@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap');
+
+  
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: 0;
+    overflow-x: hidden;
+    background: linear-gradient(to bottom right, #CDFCF6, #ffffff);
+    
+  }
+  
+  body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #151965;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: aqua;
+    border-radius: 5px;
+  }
+
+  .timeline{
+    position: relative;
+    top: 250px;
+   
+  }
+
+
+
+  * {
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    
+   
+  }
+  .div{
+    position: relative;
+    top: 200px;
+    
+  }
+
+  .sub-title {
+    text-align: center;
+    position: relative;
+    top: 150px;
+    left: -40px;
+    overflow: hidden;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 35px;
+    color: #32407B;
+   font-weight: bolder;
+   
+  }
+
+
+.phase,.phase-2,.phase-4{
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding:2%;
+  width:90vw;
+  color:#151965;
+  border-bottom: 1px solid grey;
+}
+
+.phase-4{
+  margin-bottom: 200px;
+}
+
+.phase-id{
+  font-weight: 800;
+  font-size: 2rem;
+  color:#A78BFA;
+  font-family: 'Montserrat', sans-serif;
+}
+.phase-name{
+  font-size: 1.7rem;
+  font-weight:700;
+}
+.phase-img{
+  width:500px;
+  height:300px;
+}
+.phase-text{
+  width:200px;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+.phase-deadline{
+  color:#888;
+}
+
+
+
+
+@media (max-width:450px) {
+  body {
+      overflow-x: hidden!important;
+  }
+  .div{
+    left: 8%;
+  }
+  img{
+    width:100%;
+  }
+  .sponsors{
+    align-items: center;
+    flex-direction: column;
+  }
+  .phase{
+    flex-direction: column;
+  }
+  .phase-2,.phase-4{
+    flex-direction: column-reverse;
+  }
+  .phase-img{ 
+    transform: scale(0.7);
+  }
+  .sub-title{
+    color: #151965;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    font-size: 26px;
+    font-weight: 500;
+  }
+  
+}
