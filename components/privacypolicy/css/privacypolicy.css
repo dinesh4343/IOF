@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap');
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: linear-gradient(to bottom right, #CDFCF6, #ffffff);
+    
+  }
+  
+  body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #151965;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: aqua;
+    border-radius: 5px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  
+
+ 
+
+ 
+  .fade-in {
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    align-items: center;
+   font-weight: bolder;
+    font-size: 40px;
+    color: #32407B;
+    overflow: hidden;
+  }
+  
+  
+
+  .policy-container {
+    position: relative;
+    top: 250px;
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 300px;
+    overflow: hidden;
+  }
+  
+  .policy-details {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+  }
+  
+  .acknowledgement, .contact-info {
+    margin-top: 30px;
+  }
+  
+ .policy-container h2 {
+    color: #151965;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  
+@media (max-width: 768px) {
+  .fade-in {
+    font-size: 28px;
+    top: 15%;
+  }
+}
+
+@media (max-width: 480px) {
+  .fade-in {
+    font-size: 24px;
+    top: 200px;
+  }
+}
+
+ 

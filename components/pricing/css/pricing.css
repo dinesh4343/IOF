@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap');
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #151965;
+}
+
+::-webkit-scrollbar-track {
+    background: aqua;
+    border-radius: 5px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/*contact*/
+.h3tagfN {
+
+    font-size: 3rem;
+    color: #151965;
+    text-align: center;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    font-weight: 500;
+}
+
+.h3tagfnN {
+    font-size: 3rem;
+    color: #25d366;
+    text-align: center;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    font-weight: 500;
+}
+
+
+.h3tagfN:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+    color: #151965;
+
+}
+
+.wpicon {
+    color: rgb(51, 191, 51);
+}
+
+/*contact*/
+
+
+/*features*/
+.card {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    /* Adjust the width as needed */
+}
+
+.Image {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    /* Adjust the spacing between the image and content */
+}
+
+.content {
+    flex: 1 1 auto;
+}
+
+.example {
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.maindiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: auto;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+.card {
+    width: 35%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #3d2fd11e;
+    display: flex;
+    align-items: center;
+}
+
+.Image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.example {
+
+    color: #151965;
+    font-weight: normal;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/*features*/
+
+
+/*pricing*/
+
+
+
+
+
+#pricing {
+    overflow-y: hidden;
+    padding: 100px;
+
+}
+
+.Card {
+    border: 1px solid#151965;
+    width: 150%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.card-header {
+    color: whitesmoke;
+    overflow-y: hidden;
+    background-color: #151965;
+
+}
+
+#pricing-column {
+    padding: 10px;
+    margin-bottom: 3rem;
+    margin: auto;
+    width: 130%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.price {
+    overflow-y: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.mrp {
+    overflow-y: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    text-decoration: line-through;
+}
+
+.content1 {
+    overflow-y: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+
+}
+
+.btn-dark {
+    background-color: #151965;
+}
+
+.btn-dark:hover {
+    background-color: #32407B;
+}
+
+/*pricing*/
+
+/*forms*/
+.card1 {
+    width: 50%;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#h1tag {
+    color: #32407B;
+    white-space: wrap;
+    overflow: hidden;
+    font-size: 24px;
+    position: relative;
+    font-weight: 500;
+}
+
+.h3tag1w {
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: justify;
+    font-size: 23px;
+    color: #32407B;
+    padding-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 18px;
+    color: #32407B;
+    font-weight: 300;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #32407B;
+    border: none;
+    cursor: pointer;
+}
+
+
+/*forms*/
+
+
+@media (max-width: 768px) {
+    .card {
+        width: 75%;
+        margin-bottom: 50px;
+    }
+
+    .h3tagfN {
+        color: #151965;
+        text-align: center;
+        margin: auto;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+        font-size: 1.3rem;
+    }
+
+    .h3tagfnN {
+        font-size: 1.3rem;
+        color: #25d366;
+        text-align: center;
+        margin: auto;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
+
+    .h3tagfn:hover {
+        transform: scale(1.2);
+        transition: transform 0.5s ease;
+        color: #151965;
+
+    }
+
+    /*pricing*/
+
+    #pricing-column {
+        padding: 10px;
+        margin-bottom: 3rem;
+        margin: auto;
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    /*pricing*/
+
+    /*forms*/
+    .card1 {
+        width: 80%;
+    }
+
+    .btn {
+        font-size: 17px;
+    }
+
+    /*forms*/
+}
